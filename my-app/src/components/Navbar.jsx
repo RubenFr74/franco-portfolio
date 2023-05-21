@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         {/* Hamburger Menu */}
         <div onClick={handleClick} className='md:hidden z-10'>
-          <FaBars />
+          {!nav ? <FaBars /> : <FaTimes />}
         </div>
         {/* Mobile Menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#023262] flex flex-col justify-center items-center'}>
