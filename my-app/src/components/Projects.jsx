@@ -25,10 +25,10 @@ const Projects = () => {
                             Moon Dollars
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://github.com/Raeludwig/moon-dollars">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
-                            <a href="/">
+                            <a href="https://whispering-garden-84047.herokuapp.com/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                             </a>
                         </div>
@@ -44,10 +44,10 @@ const Projects = () => {
                             Sherpa
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://github.com/patrickmc19/sherpa">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
-                            <a href="/">
+                            <a href="https://patrickmc19.github.io/sherpa/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                             </a>
                         </div>
@@ -63,10 +63,10 @@ const Projects = () => {
                             Work In Progress
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://trex-runner.com/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
-                            <a href="/">
+                            <a href="https://trex-runner.com/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                             </a>
                         </div>
