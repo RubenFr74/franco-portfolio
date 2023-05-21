@@ -13,7 +13,7 @@ const Skills = () => {
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-[#f99709]'>Experience</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#f99709]'>Skills</p>
                 <p className='py-4'>// These are the technology I'm experienced with.</p>
             </div>
                 {/* Icon Container */}
