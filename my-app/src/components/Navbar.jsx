@@ -43,9 +43,24 @@ const Navbar = () => {
         {/* Social Links */}
         <div className='flex fixed flex-col top-[35%] left-0'>
           <ul>
-            <li>
-              <a href='/'>
-                Linkedin <FaGithub size={30}/>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-900'>
+              <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                GitHub <FaGithub size={30}/>
+              </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700'>
+              <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                LinkedIn <FaLinkedin size={30}/>
+              </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600'>
+              <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                Email <HiOutlineMail size={30}/>
+              </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-700'>
+              <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                Resume <BsFillPersonLinesFill size={30}/>
               </a>
             </li>
           </ul>
