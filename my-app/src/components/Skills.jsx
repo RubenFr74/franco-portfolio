@@ -14,13 +14,33 @@ const Skills = () => {
         <div className='max-w-[1000px] max-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#f99709]'>Experience</p>
-                <p>// These are the technology I'm experienced with.</p>
+                <p className='py-4'>// These are the technology I'm experienced with.</p>
             </div>
-
-            <div>
-                <div>
+                {/* Icon Container */}
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
                     <p>HTML</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={CSS} alt='HTML icon' />
+                    <p>CSS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={JavaScript} alt='HTML icon' />
+                    <p>JavaScript</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={ReactImg} alt='HTML icon' />
+                    <p>React</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={GitHub} alt='HTML icon' />
+                    <p>GitHub</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Tailwind} alt='HTML icon' />
+                    <p>Tailwind</p>
                 </div>
             </div>
         </div>
