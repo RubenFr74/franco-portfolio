@@ -8,15 +8,34 @@ const Navbar = () => {
         <div>
             <img src={Logo} alt="Logo Image" style={{width:"50px"}}/>
         </div>
+
+        {/* Menu */}
         <div>
-            <ul>
+            <ul className='flex'>
+                <li>Home</li>
                 <li>About Me</li>
                 <li>Portfolio</li>
                 <li>Resume</li>
                 <li>Contact</li>
             </ul>
         </div>
+        {/* Hamburger Menu */}
+        <div className='hidden'>
+          <FaBars />
+        </div>
+        {/* Mobile Menu */}
+        <ul className='hidden'>
+          <li>Home</li>
+          <li>About Me</li>
+          <li>Portfolio</li>
+          <li>Resume</li>
+          <li>Contact</li>
+        </ul>
 
+
+
+        {/* Social Links */}
+        <div></div>
     </div>
   )
 }
